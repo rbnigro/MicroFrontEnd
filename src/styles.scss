@@ -3,5 +3,13 @@
 
 @import "./styles/global-overrides";
 
+.card-button-cancel {
+  background-color: greenyellow !important; // sobrescreve a folha de estilos local
+}
+
+mat-slider .mdc-slider__track--active_fill {
+  border-color: blue !important;
+}
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

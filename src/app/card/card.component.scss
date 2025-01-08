@@ -21,6 +21,10 @@
   }
 }
 
+.card-button-cancel {
+  background-color: red;
+}
+
 // usado dentro mat-slider do Angular Material
 // uso do :host apenas no contexto desse componente
 // ng-deep por ser alteração no filho
